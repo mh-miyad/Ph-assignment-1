@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header{
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    height:110vh;
+   background-size: cover;
+   padding-bottom: 10px;
+
+}
+.header-container{
+  float: right;
+  width:40vw ;
+  padding-top: 186px;
+  padding-right: 100px;
+  text-align: right;
+ 
+  
+
+}
+.head-ttile{
+  margin-bottom: 30px;
+font-size: 65px;
+line-height: 76px;
+color: #151414;
+}
+.head-description{
+    width: 90%;
+    font-size: 16px;
+line-height: 26px;
+margin-left: 50px;
+margin-bottom: 20px;
+}
+.btn{
+    width: 160px;
+    height: 64px;
+    background-color:rgb(79, 218, 79);
+    border: none;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  
+}
+.person-img{
+  width: 416px;
+  position: relative;
+ 
+  
+}
+.img-circle{
+  background: rgba(82, 241, 34, 0.2);
+  margin-top: 130px;
+  margin-left: 8px;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.check-mark{
+  width: 4%;
+}
+
+.year-review{
+  width: 70%; 
+  margin: auto;
+  margin-top: 100px;
+}
+.container{
+  display: flex;
+  gap: 90px;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-side{
+  width: 50%;
+}
+.review-tittle{
+  font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+padding:  10px 0;
+}
+.my-review-description{
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+padding: 20px 0;
+}
+
+.my-review{
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+padding: 3px 0;
+}
+
+.heading-tittle{
+  font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+}
+
+.my-plan{
+  text-align: center;
+  width: 70%; 
+  margin: auto;
+  margin-top: 100px;
+}
+.container-plan{
+  display: flex;
+  justify-content: space-around;
+}
+.plans{
+  padding: 50px 10px;
+}
+.plan-tittle{
+  margin: 10px 0 ;
+font-weight: 600;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+color: #151414;
+}
+.plans>p{
+  margin: 10px 0;
+  color: gray;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+.banner{
+  width: 78%; 
+  margin:50px auto;
+
+}
+.banner-section{
+  width:80vw;
+  height: 40vh;
+  border-radius:8px;
+  background-image:linear-gradient(90deg, #65eb82d8 0%, rgba(26, 27, 26, 0.164) 100%),url("../images/watch.png");
+  -webkit-border-radius:8px;
+  -moz-border-radius:8px;
+  -ms-border-radius:8px;
+  -o-border-radius:8px;
+}
+
+.banner-tittle{
+  color: white;
+  padding: 40px 0px 10px 100px;
+  font-size: 35px;
+  width: 40%;
+}
+.btn-white{
+  color: #29f122;
+  margin: 10px 0px 10px 100px;
+  padding: 16px 40px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+
+footer{
+  background: #151414;
+  height: 75vh;
+}
+.container-footer{
+  display: flex;
+  color: white;
+  margin: auto;
+  width: 80vw;
+  padding: 50px 0 ;
+}
+.tittle-footer{
+  font-size: 45px;
+line-height: 53px;
+padding: 20px;
+}
+.footer-description{
+  font-size: 16px;
+line-height: 26px;
+width: 35vw;
+padding: 10px;
+}
+.email-text,.phone-text{
+  padding: 10px 10px ;
+}
+.social-icon{
+  padding: 9px 20px ;
+}
+.footer-right{
+  margin-left: 300px;
+}
+.footer-right h3{
+ font-size: 30px;
+ padding: 10px 0;
+}
+input::placeholder {
+  color: white;
+  text-align: center;
+  font-size: 19px;
+}
+#email{
+ 
+  display: block;
+  width: 325px;
+  height: 64px;
+  background: transparent;
+  border: none;
+  outline: 1px solid white;
+  border-radius: 5px;
+  margin: 30px 0;
+  -webkit-border-radius: 5px;
+
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
